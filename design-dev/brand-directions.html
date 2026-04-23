@@ -289,8 +289,7 @@
     overflow: hidden;
   }
   .summary .row {
-    display-old: grid; grid-template-columns: 200px 1fr 1fr 1fr;
-    display: grid; grid-template-columns: 200px 1fr 1fr;
+    display: grid; grid-template-columns: 200px 1fr 1fr 1fr;
     padding: 20px 24px; border-bottom: 1px solid var(--rule);
     gap: 24px; font-size: 13px; line-height: 1.5;
   }
@@ -395,11 +394,19 @@
     <div class="tradeoff">
       <div>
         <h5>Best for</h5>
-        <p>Langfristige Markenführung · gedruckte Materialien · Quartiere mit hoher Leseaffinität · Freiwilligen-Kommunikation. Funktioniert im Print wie auf dem Screen. Altert gut.</p>
+        <p>
+            Langfristige Markenführung · gedruckte Materialien · Quartiere mit hoher Leseaffinität · Freiwilligen-Kommunikation.
+            Funktioniert im Print wie auf dem Screen.
+            Gesamtkonzept überzeugt trotz langweiliger Farben + Schriftart!
+            Altert gut.
+        </p>
       </div>
       <div>
         <h5>Trade-off</h5>
-        <p>Gefühl von „traditionell". Jüngere Zielgruppen und tech-affinere Nutzer:innen könnten das System als zu ruhig, zu Buch-Romantik empfinden. Die Federation / Open-Source-DNA kommt visuell zu kurz.</p>
+        <p>
+          Gefühl von „traditionell"; langweilige Farben / Schriftart. Zielgruppe "Quartier · Familie · Bibliotheken" massiv verfehlt:
+          Jüngere Zielgruppen und tech-affinere Nutzer:innen könnten das System als zu ruhig,
+          zu Buch-Romantik empfinden.</p>
       </div>
     </div>
   </section>
@@ -462,11 +469,17 @@
     <div class="tradeoff">
       <div>
         <h5>Best for</h5>
-        <p>Launch-Kampagne · Presse · Social · Plakate im Quartier. Die Mundart-Stapel funktionieren als Poster, als Bus-Banner, als Endscreen im Video. Macht den USP auf einen Blick greifbar.</p>
+        <p>Launch-Kampagne · Presse · Social · Plakate im Quartier. Die Mundart-Stapel funktionieren als Poster, als Bus-Banner, als Endscreen im Video.
+        Macht den USP auf einen Blick greifbar. Farben sind extrem stark, Schriftart gefällt. Nicht langweilig!</p>
       </div>
       <div>
         <h5>Trade-off</h5>
-        <p>Potenziell lauter, weniger für lange Lesestrecken. Die gelbe Markierung setzt ein klares „aktiv"-Signal, darf aber nicht zu Gamification kippen. Braucht Disziplin bei Folge-Screens.</p>
+        <p>
+
+            Potenziell lauter, weniger für lange Lesestrecken. Die gelbe Markierung setzt ein klares „aktiv"-Signal, darf aber nicht zu Gamification kippen.
+            Braucht Disziplin bei Folge-Screens.
+
+        </p>
       </div>
     </div>
   </section>
@@ -484,37 +497,43 @@
 
     <div class="summary">
       <div class="row head">
-        <div>Achse</div><div>01 · Stille Bibliothek</div><div>02 · Vielstimmig</div>
+        <div>Achse</div><div>01 · Stille Bibliothek</div><div>02 · Vielstimmig</div><div>03 · Kombiniert (TODO)</div>
       </div>
       <div class="row">
         <div class="rowtag">Namens-Bedeutung<br>(Regal · Regalo · -ini)</div>
         <div>Stark · die Kursive trägt das „-ini"</div>
         <div>Stark · spielt mit allen vier Lesarten</div>
+        <div>Stark · die Kursive trägt das „-ini"</div>
       </div>
       <div class="row">
         <div class="rowtag">Mundart-Claim · USP</div>
         <div>Mittel · als Eyebrow, Region-Tag</div>
         <div>Stark · als Haupt­motiv</div>
+        <div>Mittel · als Eyebrow, Region-Tag</div>
       </div>
       <div class="row">
         <div class="rowtag">Federation / Netzwerk</div>
         <div>Mittel · über Badges sichtbar</div>
         <div>Schwach · bleibt im Hintergrund</div>
+        <div>Mittel · über Badges sichtbar</div>
       </div>
       <div class="row">
         <div class="rowtag">Open-Source / CC0 / AGPL</div>
         <div>Mittel · Provenienz-Chips</div>
         <div>Schwach · nicht Teil der Bildsprache</div>
+        <div>Mittel · Provenienz-Chips</div>
       </div>
       <div class="row">
         <div class="rowtag">Zielgruppe fühlt sich angesprochen</div>
         <div>Senior:innen · Vielleser:innen · Verein</div>
+        <div>Quartier · Familie · Presse</div>
         <div>Quartier · Familie · Presse</div>
       </div>
       <div class="row">
         <div class="rowtag">Altert</div>
         <div>Sehr gut</div>
         <div>Gut, braucht Pflege</div>
+        <div>?</div>
       </div>
     </div>
 
@@ -522,20 +541,8 @@
       <div>
         <h5>Trade-off</h5>
         <p>Nicht angesprochene Nutzergruppe: Bibliothekar:in · Entwickler:in · Förderer</p>
-
-        <p> Systemebene kann kühler ausfallen (Status, Admin, Federation-Dashboard),
-            z.B. mit font-families: "IBM Plex Mono", monospace oder "font-family: "Inter";"
-            oder mit "–" vor und nach dem Überschriftstext wie
-            <pre>
-                .d03-kicker::before, .d03-kicker::after {
-                    content: ""; width: 16px; height: 1px; background: currentColor;
-                }
-            </pre>
-        </p>
       </div>
     </div>
-
-
   </section>
 
 
@@ -562,7 +569,16 @@
     </h3>
     <p>
         Haupt-Modus: <ul><li>Basis Richtung 01</li><li> + aus 02 die peppigeren/ warmen Farben (lake, rouge, sun, Hintergrund).</li></ul><br>
-        Admin-Modus: <ul><li>Basis Richtung 01</li><li>reduzierter Einsatz farbiger Elemente (lake, rouge, sun).</li><li>Hintergrundfarbe kühler als im Haupt-Modus</li></ul><br>
+        Admin-Modus: <ul>
+            <li>Basis Richtung 01</li>
+            <li>reduzierter Einsatz farbiger Elemente (lake, rouge, sun).</li>
+            <li>Hintergrundfarbe kühler als im Haupt-Modus</li>
+            <li>font-families: "IBM Plex Mono", monospace oder "font-family: "Inter";"</li>
+            <li>mit "–" vor und nach dem Überschriftstext wie<pre>
+                .d03-kicker::before, .d03-kicker::after {
+                    content: ""; width: 16px; height: 1px; background: currentColor;
+                }</pre></li>
+        </ul>
 
         <b>Zwei Modi unter einem Dach, nicht zwei Marken.</b>
     </p>
@@ -573,4 +589,3 @@
 
 </body>
 </html>
-
